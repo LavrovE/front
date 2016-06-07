@@ -53,4 +53,105 @@ a, a:hover {
 .right {
   float: right; }
 
+@font-face {
+  font-family: 'MontserratBold';
+  src: url("../fonts/MontserratBold.ttf"); }
+@font-face {
+  font-family: 'RobotoLight';
+  src: url("../fonts/RobotoLight.ttf"); }
+@font-face {
+  font-family: 'MontserratRegular';
+  src: url("../fonts/MontserratRegular.ttf"); }
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 3.125vw; }
+
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem; }
+
+  header {
+    text-align: center;
+    padding-top: 2.8rem;
+    background-image: url(../img/mobile/header-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 54rem;
+    background-position: 51.5% -1.2rem; }
+    header a {
+      font-family: MontserratBold;
+      font-size: 1.4rem;
+      color: #fff;
+      margin: 0.8rem; }
+    header a.active {
+      font-family: MontserratBold;
+      font-size: 1.4rem;
+      color: #fff;
+      border: 0.2rem solid;
+      padding: 0.7rem 1.7rem;
+      border-radius: 2rem; }
+    header a:nth-child(6) {
+      background-color: #ff4e50;
+      padding: 1.1rem 5rem;
+      border-radius: 2.5rem; }
+    header h2 {
+      font-family: MontserratBold;
+      font-size: 2rem;
+      color: #fff;
+      margin-top: 12.5rem;
+      letter-spacing: 0.1rem; }
+    header h1 {
+      font-family: MontserratBold;
+      font-size: 3rem;
+      color: #fff;
+      margin-top: 2.6rem; }
+    header p {
+      font-family: RobotoLight;
+      font-size: 1.8rem;
+      color: #fff;
+      margin-top: 0.7rem;
+      padding-left: 5.1rem;
+      padding-right: 5.1rem;
+      margin-bottom: 3rem;
+      line-height: 2rem; }
+
+  .work > h1 {
+    font-size: 2.2rem;
+    font-family: MontserratBold;
+    color: #333333;
+    text-align: center;
+    margin-top: 3.3rem; }
+  .work span {
+    color: #fff;
+    font-family: MontserratRegular;
+    background-color: #ff4e50;
+    padding: 0.4rem 1.1rem 0.3rem 1.6rem;
+    border-radius: 1rem;
+    letter-spacing: 0.2rem;
+    position: absolute;
+    top: 6.9rem;
+    left: 2rem; }
+  .work div > h1 {
+    font-size: 2.4rem;
+    font-family: MontserratBold;
+    color: #fff;
+    text-align: left;
+    margin-top: 1rem;
+    padding-top: 10.4rem; }
+  .work div > p {
+    font-size: 1.4rem;
+    font-family: RobotoLight;
+    color: #fff;
+    text-align: left;
+    padding-bottom: 1.7rem;
+    margin-top: 1rem;
+    line-height: 1.7rem; }
+  .work div {
+    background-image: url(../img/mobile/step1.jpg);
+    border-radius: 0.3rem;
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 0.6rem;
+    padding-right: 2rem; } }
+
 /*# sourceMappingURL=main.css.map */

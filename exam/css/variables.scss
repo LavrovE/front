@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'MontserratBold';
+    src:url('../fonts/MontserratBold.ttf');
+}
+@font-face {
+    font-family: 'RobotoLight';
+    src:url('../fonts/RobotoLight.ttf');  
+}
+@font-face {
+    font-family: 'MontserratRegular';
+    src:url('../fonts/MontserratRegular.ttf');  
+}
+
+
+    
+
+
+$h-font:          	 MontserratBold;
+$p-font:			 RobotoLight;
+$span-font:			 MontserratRegular;
+
+
+$h-color:	         #fff;
+$btn-color:			 #ff4e50; 
+$dark-color:	     #333333;
