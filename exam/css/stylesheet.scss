@@ -1,5 +1,6 @@
 @import 'variables';
-	
+
+
 html {
 	font-size:3.125vw;
 }
@@ -399,11 +400,12 @@ margin-bottom: 3.4rem;
 					     margin-top: 4.6rem;
 					    font-family:$h-font;
     				}
-}
+	}
 
 
 .grid-item--width2 { width: 49.2rem; }
 .gutter-sizer { width: 4%; }
+
 
 
 @media only screen and (max-width: 768px) and (min-width:321px){
@@ -510,6 +512,7 @@ header {
 	}
 }
 #slider3{
+
 	.slide3:nth-child(3)>div{
 	background-image: url(../img/step3.jpg);
 	height: 40rem;
@@ -553,9 +556,11 @@ header {
 #slider, #slider2, #slider3{
 	display:inline-block;
 	margin-bottom:0;
+
 }
 .work #slider2 {
 	    margin-left: 1.6rem;
+
 }
 .work #slider3 {
 	    margin-left: 1.7rem;
