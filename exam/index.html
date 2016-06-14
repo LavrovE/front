@@ -14,8 +14,8 @@
 <body>
 
 	<header>
-		<a href="#">Log in</a>
-		<a href="#">Sign up</a>
+		<a href="#" class="login">Log in</a>
+		<a href="#" class="login">Sign up</a>
 		<h2>URLAUBSGLÜCK</h2>
 		<h1>SHARE YOUR HOLIDAY DREAMS</h1>
 		<p>And find the perfect partner to fullfill it</p>
@@ -144,9 +144,100 @@
 			<a href="#">See other partners</a>
 		</div>
 	</div>
+	<h1 class="partners__h1">Discover holiday activity ideas</h1>
+	<div class="grid">
+		 
+	</div>	
+	<p class="search__text">Discover holiday activity ideas</p>
+	<p class="search__text2">Hi! What are your holiday interests?</p>
+	<div class="search">
+		<input type="text" id="txt" value="Enter your interests" onfocus="if (this.value == 'Enter your interests') {this.value = ''; this.style.color = '#ccc';}" />
+		<input type="button" id="btn" value="Search partners">
+
+	</div>
+	<div class="search__underline"></div>
+	<div class="logos">
+		<h1>URLAUBSGLÜCK</h1>
+		<h2>Company</h2>
+		<p>About</p>
+		<p>Contacts</p>
+		<p>Press</p>
+		<p>Blog</p>
+		<h2>Partners</h2>
+		<h3>DESIGNED BY</h3>
+		<img src="img/mobile/logo.png">
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/html" id="search__pictures" >
+
+			<% for (var i=0; i<data.length; i++) { %>
+				<div class="grid-item">
+					<div style="background-image:url(<%= data[i].pic %>)">
+					<p> <%= data[i].tag%></p>
+					</div>			
+				</div>	
+
+			<% }; %>
 			
 
 
+
+	</script>
 
 
 
@@ -159,9 +250,11 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/isotope.pkgd.js"></script>
 <script type="text/javascript" src="js/slider.js"></script>
 <script type="text/javascript" src="js/slider2.js"></script>
 <script type="text/javascript" src="js/slider3.js"></script>
+<script type="text/javascript" src="js/tmpl.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 
 </body>
