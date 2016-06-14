@@ -29,6 +29,18 @@ $(document).ready(function(e) {
 		// $(".control-slide.active").removeClass("active");
 		// $('.control-slide').eq(slideNum).addClass('active');
 		}
+		if(hwNeedLinks){
+var $linkArrow = $('<a id="prewbutton" href="#">&lt;</a><a id="nextbutton" href="#">&gt;</a>')
+	.prependTo('#slider3');		
+	$('#nextbutton').click(function(){
+		animSlide("next");
+		return false;
+		})
+	$('#prewbutton').click(function(){
+		animSlide("prew");
+		return false;
+		})
+}
 
 	var $adderSpan = '';
 	// $('.slide').each(function(index) {

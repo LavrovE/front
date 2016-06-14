@@ -14,8 +14,7 @@
 <body>
 
 	<header>
-		<div>
-		<a href="#" class="login">Log in</a>
+		<div><a href="#" class="login">Log in</a>
 		<a href="#" class="login">Sign up</a>
 		</div>
 		
@@ -125,17 +124,18 @@
 			<h4>Bradley Hunter</h4>
 			<p>Based in Chicago. I love playing tennis and loud music.</p>
 		</div>
-		<div class="partners__partner">
-			<img src="img/mobile/partner2.jpg">
-			<img src="img/mobile/bottle.png">
-			<h4>Lucas Marsha</h4>
-			<p>I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
-		</div>
+		
 		<div class="partners__partner">
 			<img src="img/mobile/partner3.jpg">
 			<img src="img/mobile/cup.png">
 			<h4>Heather Walker</h4>
 			<p>I'm a happy person that loves cats and climbing on mountains. </p>
+		</div>
+		<div class="partners__partner">
+			<img src="img/mobile/partner2.jpg">
+			<img src="img/mobile/bottle.png">
+			<h4>Lucas Marsha</h4>
+			<p>I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
 		</div>
 		<div class="partners__partner">
 			<img src="img/mobile/partner4.jpg">
@@ -149,7 +149,6 @@
 	</div>
 	<h1 class="partners__h1">Discover holiday activity ideas</h1>
 	<div class="grid">
-		 
 	</div>	
 	<p class="search__text">Discover holiday activity ideas</p>
 	<p class="search__text2">Hi! What are your holiday interests?</p>
@@ -160,15 +159,17 @@
 	</div>
 	<div class="search__underline"></div>
 	<div class="logos">
-		<h1>URLAUBSGLÜCK</h1>
-		<h2>Company</h2>
-		<p>About</p>
-		<p>Contacts</p>
-		<p>Press</p>
-		<p>Blog</p>
-		<h2>Partners</h2>
-		<h3>DESIGNED BY</h3>
-		<img src="img/mobile/logo.png">
+		<div><h1>URLAUBSGLÜCK</h1></div>
+		<div><h2>Company</h2>
+			<div><p>About</p>
+			<p>Contacts</p>
+			<p>Press</p>
+			<p>Blog</p></div>
+		</div>
+		
+		<div><h2>Partners</h2></div>
+		<div><h3>DESIGNED BY</h3>
+		<img src="img/mobile/logo.png"></div>
 
 	</div>
 
@@ -227,13 +228,13 @@
 
 
 <script type="text/html" id="search__pictures" >
-
+			<div class="gutter-sizer"></div>
 			<% for (var i=0; i<data.length; i++) { %>
-				<div class="grid-item">
-					<div style="background-image:url(<%= data[i].pic %>)">
+					
+					<div class="grid-item"style="background-image:url(<%= data[i].pic %>)" >
 					<p> <%= data[i].tag%></p>
 					</div>			
-				</div>	
+				
 
 			<% }; %>
 			
@@ -241,10 +242,6 @@
 
 
 	</script>
-
-
-
-
 
 
 

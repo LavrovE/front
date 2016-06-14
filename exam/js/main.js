@@ -1,6 +1,8 @@
 $(function() {
 
 
+
+
 $('header a.login').on('click', function(){
 	$('header a.login').removeClass('active');
 	$(this).addClass('active');
@@ -142,8 +144,15 @@ document.getElementById("btn").onclick = someFunc;
 
 
 
+$('.grid').isotope({
+ layoutMode: 'fitRows',
+itemSelector: '.grid-item',
+percentPosition: true,
+fitRows: {
+  gutter: '.gutter-sizer'
+}
+});
 
 
 });
-
 
