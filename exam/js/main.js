@@ -5,7 +5,7 @@ $('header a.login').on('click', function(){
 	$('header a.login').removeClass('active');
 	$(this).addClass('active');
 })
-$('header a:nth-child(6)').on('click',function(){
+$('header a:nth-child(5)').on('click',function(){
 	 var topp = $('body').scrollTop()+$('.search input[type="button"]').offset().top;
   	 $('html, body').animate({scrollTop:topp},'slow');
   	console.log(topp)

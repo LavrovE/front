@@ -41,13 +41,13 @@ $(document).ready(function(e) {
 	// animSlide(goToNum);
 	// });
 	var pause = false;
-	var rotator = function(){
-			if(!pause){slideTime = setTimeout(function(){animSlide('next')}, hwTimeOut);}
-			}
-	$('#slider3').hover(	
-		function(){clearTimeout(slideTime); pause = true;},
-		function(){pause = false; rotator();
-		});
-	rotator();
+	// var rotator = function(){
+	// 		if(!pause){slideTime = setTimeout(function(){animSlide('next')}, hwTimeOut);}
+	// 		}
+	// $('#slider3').hover(	
+	// 	function(){clearTimeout(slideTime); pause = true;},
+		// function(){pause = false; rotator();
+		// });
+	// rotator();
 });
 })(jQuery);
