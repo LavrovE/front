@@ -39,8 +39,8 @@
 .sli-links .control-slide.active{
 	background-position:center top;}
 #prewbutton, #nextbutton{ /* Ссылка "Следующий" и "Педыдущий" */
-	display:block;
-	width:15px;
+	display:none;
+	    width: 1.5rem;
 	height:100%;
 	position:absolute;
 	top:0;
@@ -60,7 +60,7 @@
 @media only screen and (max-width: 768px) and (min-width:321px){
 	#slider {
 	margin-bottom:0;
-	width: 23rem;
+	    width: 31.55%;
 	    height: 40rem;
 	    margin:0;
 
