@@ -92,3 +92,30 @@
 
 
 }
+
+
+@media only screen and (min-width:769px){
+	#slider {
+    width: 31.8%;
+    height: 40.2rem;
+    margin: 0;
+
+	}
+
+#prewbutton{left:2rem;}
+#nextbutton{
+	right:2.2rem;
+	background:url(../img/arrowBg.png) right center no-repeat;}
+#prewbutton:hover, #nextbutton:hover{
+	opacity:1;}
+
+
+}
+
+
+@media only screen and (min-width:1440px){
+	#prewbutton, #nextbutton{ /* Ссылка "Следующий" и "Педыдущий" */
+	 width: 2rem;
+	outline:none !important;}
+}
+   

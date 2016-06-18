@@ -93,3 +93,41 @@
 
 
 }
+
+@media only screen and (min-width:769px){
+	#slider2 {
+    width: 31.8%;
+    height: 24rem;
+    height: 40.2rem;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+
+	}
+#prewbutton, #nextbutton{ /* Ссылка "Следующий" и "Педыдущий" */
+	display:block;
+	width:3.5rem;
+	height:100%;
+	position:absolute;
+	    top: -1.9rem;
+	overflow:hidden;
+	text-indent:-999px;
+	background:url(../img/arrowBg.png) left center no-repeat;
+	opacity:0.8;
+	z-index:3;
+	outline:none !important;}
+#prewbutton{left:2rem;}
+#nextbutton{
+	right:2.2rem;
+	background:url(../img/arrowBg.png) right center no-repeat;}
+#prewbutton:hover, #nextbutton:hover{
+	opacity:1;}
+
+
+}
+@media only screen and (min-width:1440px){
+	#prewbutton, #nextbutton{ /* Ссылка "Следующий" и "Педыдущий" */
+	 width: 2rem;
+	outline:none !important;}
+}
+   
